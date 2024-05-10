@@ -1,18 +1,5 @@
 #!/usr/bin/env bash
-source <(curl -s https://raw.githubusercontent.com/tteck/Proxmox/main/misc/build.func)
 
-
-function header_info {
-clear
-cat <<"EOF"
-    ____       __    _           
-   / __ \___  / /_  (_)___ _____ 
-  / / / / _ \/ __ \/ / __ `/ __ \
- / /_/ /  __/ /_/ / / /_/ / / / /
-/_____/\___/_.___/_/\__,_/_/ /_/ 
-                                 
-EOF
-}
 header_info
 echo -e "Loading..."
 APP="Debian"
